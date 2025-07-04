@@ -21,3 +21,5 @@ ask_bid_diff = [0.008, 0.005, 0.002]
 inventory_risk = [0.2, 0.5, 0.8]
 df2 = pd.DataFrame({"Trader Type": trader_types, "Spread Width": ask_bid_diff, "Risk Appetite": inventory_risk})
 st.dataframe(df2)
+
+# New changes
