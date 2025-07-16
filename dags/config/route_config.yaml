@@ -1,0 +1,11 @@
+strict_mode: true          # 严格模式，若找不到匹配立即报错
+rules:
+  "Customer Info_":
+    archive_prefix: "archive/Customer Info/"
+    schema_file: "schemas/customer_info_schema.json"
+    bq_table: "vernal-guide-465502-j6.prod_dataset.customer_info"
+  "Product Info_":
+    archive_prefix: "archive/Product Info/"
+    schema_file: "schemas/product_info_schema.json"
+    bq_table: "vernal-guide-465502-j6.prod_dataset.product_info"
+
